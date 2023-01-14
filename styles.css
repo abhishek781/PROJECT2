@@ -1,0 +1,171 @@
+body{
+    
+    padding: 1%;
+    color: white;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.sideBar{
+    position: fixed;
+    top: 10px;
+    left: 15px;
+    width: 225px;
+    height: 96%;
+    /* padding: 20px 0; */
+    background-color: #262626;
+
+    border-radius: 50px;
+}
+
+.test{
+    width: 60%;
+    background-color: #262626;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+
+/* .text-edit{
+    margin-top: 40px;
+    margin-left: 70px
+}
+
+.text2{
+    margin-left: 80px;
+    font-size: 11px; 
+} */
+
+.side-text{
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+.button-edit{
+    padding: 5%;
+    position: relative;
+    top: 50px;
+    
+}
+
+.billionare{
+    font-size: 11px;
+    margin-left: 13px;
+    margin-top: 5px;
+    color:rgba(255, 255, 255, 0.5);
+
+}
+
+.btn-edit{
+color: rgba(255, 255, 255, 0.5);;
+    width: 200px;
+height: 40px;
+background: #111111;
+border-radius: 30px;
+margin-bottom: 10px;
+}
+
+.top-card{
+  
+  width: 79%;
+  position: fixed;
+  left: 20%;
+  height: 47%;
+  top: 10px;
+  background: #262626;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+}
+
+
+.bottom-card{
+    
+    width: 79%;
+    position: fixed;
+    left: 20%;
+    height: 47%;
+    bottom: 10px;
+    background: #262626;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  
+  }
+
+  .contain{
+    display: flex;
+    flex-direction: row;
+    /* padding: 1%; */
+}
+  .text-content{
+    text-align: justify;
+    position: relative;
+    left: 40px;
+    width: 36%;
+    height: 35%;
+  }
+
+  .hero-text{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .poster{
+    width: 50%;
+    height: 65%;
+    position: relative;
+    left: 100px;
+top: 70px;
+  }
+
+  .bottom-text{
+    position: relative;
+    top: 20px;
+    left: 50px;
+  }
+
+  /* .table-div{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    
+  } */
+  
+  table,th{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+        
+
+    border-collapse: collapse;
+    padding: 6px 5px;
+    text-align: left;
+}
+
+td{
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    padding-left: 6px;
+    text-align: left;
+
+}
+
+
+button{
+    cursor: pointer;
+}
+table{
+    width: 90%;
+    box-sizing: border-box;
+    font-size: 10px;
+    color:rgba(255, 255, 255, 0.5);
+    height: 150px;
+
+   
+    position: relative;
+    top: 40px;
+    left: 50px;
+    
+    
+
+}
+
